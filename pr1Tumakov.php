@@ -24,10 +24,8 @@ $users = [
 $user_login = "alex";
 $user_password = "Alex@123";
 
-foreach ($users as $user) {
-    $user == $users[2]; 
-    if ($user_login !== $user) {
-        echo "Пользователь с таким логином не существует.";
-    }
+if ($user_login !== $users["user_login"]) {
+    echo "Пользователь с таким логином не существует.";
 }
+
 ?>
